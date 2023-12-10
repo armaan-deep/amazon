@@ -1,0 +1,509 @@
+*{
+   margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   border: border-box;
+} 
+ /* Header */
+ .nav{
+    height: 60px;
+    display: flex;
+    background-color: #0f1111;
+    align-items:center;
+    color: white;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    width: 113px;
+    height: 50px;
+}
+.logo{
+   background-size: cover;
+    background-image: url("img/amazon_logo.png");
+    width: 100%;
+    height: 50px;  
+} 
+
+.border{
+border:1.5px solid transparent;
+} 
+.border:hover{
+    border:1.5px solid white;
+    border-radius: 3px;
+    border-radius: 2px;
+}
+/* ADREESER HERE */
+ .nav-address{
+font-size: 1rem;
+} 
+
+
+.add-1{
+ color: #CCCCCC;
+ font-size: 0.8rem;   
+margin-left: 15px;
+}
+.add-2{
+   font-weight: 700;  
+   margin-left: 4px;
+   }
+   
+
+.add-icon{
+    display: flex;
+    align-items: center;   
+}
+
+.nav-srch{
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    height: 40px;
+    border: none;
+}   
+
+.srch-slt{
+    width: 50px; 
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    text-align: center;
+   
+}
+.sr{
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+}
+.nav-srch:hover{
+    border:3px solid #d6be43;
+    background-color: #d6be43;
+   
+}
+
+
+.search-icon{
+    width: 45px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ebc400;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* language part */
+.lang {
+    display: flex;
+    align-content: end;
+    margin-top: 0.9rem;
+}
+.lan{
+    margin-left: 3px;
+    height: 18px;
+    font-size: 14px;
+    text-align: top;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.us{
+    background-image: url("img/flag.jpg");
+    background-size:cover;
+    width: 30px;
+    height: 20px;
+}
+/* other blocks */
+.span{
+    font-size: 0.7rem;
+}
+
+.g2{
+    font-size:0.8rem;
+    font-weight: 700;
+}
+
+.nav-cart-p{
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-top: 0.9rem;
+}
+
+.shop1{
+    display: flex;
+    font-size: 1.5rem;
+}
+
+/* nav-panel*/
+.nav-panel{
+    height:40px;
+    background-color: #222f3D;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+.items p{
+    display: inline;
+    font-size: 0.9rem;
+    margin-left:15px;
+}
+.items{
+    width: 80%;
+}
+.last-deal{
+    font-size: 0.9rem; 
+    font-weight:700;
+
+/*Hero panel */
+}
+.hero{
+    background-image: url("img/hero_image.jpg");
+     height: 350px;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    
+}
+
+.hero-msg{
+    background-color:#f5f6f6;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    margin-bottom:15px;
+}
+.hero-msg a{
+    color:#007185;
+}
+
+/* Boxes */
+.shop {
+    background-color: #e2e7e6;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+}
+
+.boxs{
+    align-items: center; 
+    margin: 7.9px;
+    width:300px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap; 
+    background-color:#ffffff;
+    justify-content: center;
+    
+}
+
+
+.boxs>h2{
+    font-size: 21px;
+    font-weight: 700;
+}
+.boxs a{
+    color:#007185;
+    text-align: left;
+    font-size: 14px;
+    text-decoration: none;
+   
+}
+
+
+.box img{
+    width: 130px;
+    height: 100px;
+}   
+
+.dec{
+    text-align: center;
+    font-size: 12px;
+}
+
+ .one h2{
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 90px; 
+}
+
+.one a{
+    margin-right: 180px;
+}
+
+.tw img{
+    width: 120px;
+    height: 100px;
+   
+}
+ .two{
+    width:300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.two h2{
+ 
+    margin-right: 48px; 
+}
+
+.two a{
+    margin-right: 170px;
+}
+
+.three h2{
+     padding-left: 10px;
+     padding-right: 45px;
+}
+
+.three{
+    width:300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three a{
+    margin-right: 130px;
+}
+.fr{
+    width:300px;
+    height: 400px;
+     background-color: #e2e7e6; 
+}
+.four {
+    width: 300px;
+    height: 130px;
+    font-weight: 700;
+    font-size: 21px; 
+    display: flex;  
+    flex-wrap: wrap;
+     justify-content: center; 
+     align-items: center; 
+    padding-right: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding-left: 15px;
+
+}
+ .four div{   
+ padding: 12px;     
+} 
+.four button{
+ background-color: #fdd509;
+ border-radius: 10px;
+ width: 85%;
+ height: 35px;
+ font-size: 15px;
+ border: none;
+justify-items: center; 
+}
+
+.four button:hover{
+    background-color: #e4c420;
+}
+.pck-img{
+    display: inline-flex;
+}
+
+.pck-img img{
+    width: 300px;
+    height: 257px;
+}
+
+.five{
+    justify-content: space-around;
+}
+ .five h2{
+    margin-right: 50px;
+    padding-left: 10px;
+    padding-right: 45px;
+}
+
+.five a{
+     padding-right: 200px; 
+}
+
+.sx{
+    justify-content: space-around;
+}
+ .sx h2{
+    padding-left: 10px;
+    padding-right: 45px;
+}
+
+ .sx a{
+     padding-right: 180px; 
+}
+
+ .boss img {
+width: 90%;
+height: 300px;
+ }
+.boss{
+    display: flex;
+   justify-content: center;
+}
+
+.sev a{
+    padding-right: 190px; 
+}
+
+.sev h2{
+    padding-left: 10px;
+    padding-right: 45px;
+}
+
+.boss1 img {
+    width: 90%;
+    height: 300px;
+   
+     }
+    .boss1{
+       display: flex;
+       justify-content: center;
+    }
+    
+    .eig a{
+        padding-right: 190px; 
+    }
+    
+    .eig h2{
+         padding-right: 155px;
+    }
+.gur a:hover{
+color: #C7511F;
+text-decoration: underline;
+}
+   
+.bo{
+   margin: 7.9px;
+    width:100%;
+    height: 250px;
+    background-color:#ffffff;   
+    padding-left: 25px;
+}
+.nin img{
+    width: 130px;
+    height: 200px;  
+}
+.bo-img{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.mem img{
+    width: 290px;
+    height: 80px;
+}
+.bo h2{
+    font-size:21px;
+    
+}
+.tn {
+    justify-content: left;
+    text-align: left;
+}
+.tn h2{
+    padding-left: 1rem;
+}
+.tn a{
+    padding-left: 1rem;
+}
+/* --------------------Footer here-------------------------------------- */
+.foot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #37475a;
+    font-size: 0.85rem;
+    height: 3.1rem;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    color: white;
+    background-color: #222f3D;
+    height: 320px;
+    padding: 3.5rem 1rem;
+    justify-content: space-around;
+}
+.foot a{
+text-decoration: none;
+color: #dddd;
+font-size: 14px;
+margin-top: 0.6rem;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
+.foot a:hover{
+    text-decoration: underline;
+}
+.foot1:hover{
+    background-color: #4c627c;
+}
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3D;
+    border-top:1px solid #999999 ;
+    height: 6rem; 
+    /* padding-top: 2rem;  */
+}
+.logo-end  {
+    width: 70px;
+    height: 23px;
+}
+.foot-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    border: 1px solid #999999;
+    height: 2.5rem;
+    margin: 0 0.5rem;
+}
+.logo-end img{
+    width: 100%;
+}
+.foot-lang i{
+    margin: 0 0.4rem;
+}
+.foot3{
+    font-size: 12px;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131A22;
+    height: 5rem;
+    flex-wrap: wrap;
+    
+}
+.foot3 a{
+    text-decoration: none;
+    color: #dddddd;
+    margin: 0 0.6rem;
+}
+.nav-end-opti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nav-end-opti a:hover{
+    text-decoration: underline;
+}
